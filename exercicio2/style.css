@@ -6,4 +6,7 @@
 main{
   padding-top: 20px;
   display: flex;
+  flex-wrap: wrap; /*para reajustar com o tamanho da tela*/
+  gap: 10px; /*para os espaços entre os itens*/
+  justify-content: center; /*para centralizar*/
 }

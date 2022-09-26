@@ -26,13 +26,17 @@ section{
 }
 
 #section-2{
+  flex: 80px; /*reorganizar o tamanho do item no container*/
 }
 
 #section-3{
+  flex: 120px; /*para o tamanho: ele deu 200. dividi 200 por 5 e dpois fui somando o resultado da divisão. 40x3=120*/
 }
 
 #section-4{
+  flex: 200px;
 }
 
 #section-5{
+  order: -1; /*para colocar no canto esquerdo*/
 }

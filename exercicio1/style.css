@@ -8,11 +8,18 @@
   width: 100vw;
   background-color: lightgray;
   display: flex;
+  
+  flex-direction: column; /*para ficar em coluna*/
+  justify-content: space-around; /*para dar os espaço entre eles*/
+  align-items: center; /*para colocar no centro*/
 }
 
 .item {
   border: 1px solid black;
   background-color: white;
   height: 180px;
-  width: 180px;
+  width: 180px; 
+  display: flex; /*para centralizar*/
+  align-items: center; /*para centralizar*/
+  justify-content: center; /*para centralizar*/
 }
